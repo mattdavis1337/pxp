@@ -21,13 +21,19 @@ body, form, ul, table {
 .header {
   border-bottom: 1px solid #e5e5e5;
 }
+
+.container {
+  text-align: center;
+}
+
 .logo {
-  width: 519px;
-  height: 71px;
+  width: 550px;
+  height: 550px;
+  text-align: center;
   display: inline-block;
   margin-bottom: 1em;
-  background-image: url("/images/phoenix.png");
-  background-size: 519px 71px;
+  background-image: url("/images/peaceLogo550x550.png");
+  background-size: 550px 550px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -35,6 +41,10 @@ body, form, ul, table {
 .marketing {
   padding-right: 15px;
   padding-left: 15px;
+}
+
+.marketing {
+    text-align: center;
 }
 
 /* Customize container */
