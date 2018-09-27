@@ -1,18 +1,51 @@
-<div class="jumbotron teal darken-2 white-text">
-  <h1>
-    <%= gettext "Welcome to P.E.A.C.E. by Piece"%>
+<div class="jumbotron black darken-2 white-text">
+  <h1 class="blue-text text-accent-3">
+    <%= gettext "P.E.A.C.E. by Piece"%>
   </h1>
 
-  <h4>A hybrid retail auction system and digital gallery</h4>
-  <h3 ><a href="https://docs.google.com/forms/d/e/1FAIpQLSfTOOjCtsA6-MgLHVbL0Rt7SXxizxapJ0f6g52abm-058TPDQ/viewform?c=0&w=1">Artist Application</a></h3>
-  <h3><a href="https://docs.google.com/forms/d/e/1FAIpQLSe3xDuuk1opxL1t5NMWz-BFesxka6TGzOczwNuKz0jaiUKq8w/viewform?c=0&w=1">Bid Form</a></h3>
+  <h4 class="pink-text text-accent-3">Hybrid Retail Auction System</h4>
+  <!-- <a class="waves-effect waves-light btn-large green accent-4" style="width:25%" href="https://docs.google.com/forms/d/e/1FAIpQLSe3xDuuk1opxL1t5NMWz-BFesxka6TGzOczwNuKz0jaiUKq8w/viewform?c=0&w=1">Place a Bid<i class="material-icons left">money</i></a><br /><br /> -->
 </div>
 
+<div>
+  <img id="myImg" src="<%= static_path(@conn, "/images/pxpflyer.png") %>" alt="PxP Flyer" style="width:100%;max-width:300px">
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <span class="modal-close">&times;</span>
+    <img class="modal-content" id="img01">
+  </div>
+</div>
+<br /><br />
+
+<a class="waves-effect waves-light btn-large green accent-4" style="width:25%" href="https://docs.google.com/forms/d/e/1FAIpQLSfTOOjCtsA6-MgLHVbL0Rt7SXxizxapJ0f6g52abm-058TPDQ/viewform?c=0&w=1">Artist Entry Form<i class="material-icons left">send</i></a>
 
 <div class="row marketing center">
   <div class="col-lg-12 center">
-    <a href="http://www.thepeacemuseum.org/">The Peace Museum</a><br />
+    <h5><a href="http://www.thepeacemuseum.org/">Visit The Peace Museum</a><br /></h5>
   </div>
 </div>
 
-<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us9.list-manage.com","uuid":"52258d3f8337a6aa7a025d690","lid":"fb5fb56f10","uniqueMethods":true}) })</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("modal-close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+</script>
+
+<!-- <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us9.list-manage.com","uuid":"52258d3f8337a6aa7a025d690","lid":"fb5fb56f10","uniqueMethods":true}) })</script> -->

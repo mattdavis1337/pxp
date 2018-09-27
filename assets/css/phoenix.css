@@ -27,13 +27,12 @@ body, form, ul, table {
 }
 
 .logo {
-  width: 550px;
-  height: 550px;
+  width: 400px;
+  height: 400px;
   text-align: center;
   display: inline-block;
-  margin-bottom: 1em;
   background-image: url("/images/peaceLogo550x550.png");
-  background-size: 550px 550px;
+  background-size: 400px 400px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
