@@ -24,17 +24,10 @@
     <img src="">
   </div>
   <div class="col s6">
-    <img id="myImg" src="<%= static_path(@conn, "/images/pxpflyer.png") %>" alt="PxP Flyer" style="width:100%;max-width:300px">
-
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-      <span class="modal-close">&times;</span>
-      <img class="modal-content" id="img01">
-    </div>
+    <a href="#" data-featherlight="<%= static_path(@conn, "/images/pxpflyer.png") %>"><img id="myImg" src="<%= static_path(@conn, "/images/pxpflyer.png") %>" alt="PxP Flyer" style="width:100%;max-width:300px"></a>
   </div>
   <div class="col s3"> </div>
 </div>
-
 
 <div class="row">
   <div class="col s0 m3"></div>
