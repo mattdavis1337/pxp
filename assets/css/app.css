@@ -30,6 +30,11 @@
     max-width: 700px;
 }
 
+li {
+  margin:5px;
+  font-weight: bold;
+}
+
 /* Add Animation */
 .modal-content {
     -webkit-animation-name: zoom;

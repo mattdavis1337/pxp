@@ -15,11 +15,16 @@
 
   <body style="background:black">
     <div class="container">
-      <span class="logo"></span>
 
-      <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
-      <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
+      <div class="row">
+        <div class="col s1 m3" ></div>
+        <div class="col s10 m6">
+          <img style="height:100%;width:100%;" src="<%= static_path(@conn, "/images/peaceLogo550x550.png") %>"> </img>
+        </div>
+        <div class="col s1 m3" ></div>
+      </div>
 
+      
       <main role="main">
         <%= render @view_module, @view_template, assigns %>
       </main>
