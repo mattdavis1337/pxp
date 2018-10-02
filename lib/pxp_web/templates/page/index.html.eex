@@ -20,18 +20,18 @@
 
 
 <div class="row">
-  <div class="col s3">
+  <div class="col s3 m1 left">
     <i class="material-icons left red-text right">star_border</i><br /><br />
-    <i class="material-icons left green-text right">star_border</i><br /><br />
+    <i class="material-icons left green-text  right">star_border</i><br /><br />
     <i class="material-icons left blue-text right">star_border</i><br /><br />
     <i class="material-icons left blue-text right">star_border</i><br /><br />
     <i class="material-icons left green-text right">star_border</i><br /><br />
     <i class="material-icons left red-text right">star_border</i>
   </div>
-  <div class="col s6 center">
+  <div class="col s6 m10 center">
     <a href="#" data-featherlight="<%= static_path(@conn, "/images/pxpflyer.png") %>"><img id="myImg" src="<%= static_path(@conn, "/images/pxpflyer.png") %>" alt="PxP Flyer" style="width:100%;max-width:300px"></a>
   </div>
-  <div class="col s3">
+  <div class="col s3 m1 right">
     <i class="material-icons left red-text left">star_border</i><br /><br />
     <i class="material-icons left green-text left">star_border</i><br /><br />
     <i class="material-icons left blue-text left">star_border</i><br /><br />
