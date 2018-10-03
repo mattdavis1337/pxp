@@ -10,14 +10,11 @@
   </div>
 </div>
 
-
 <div class="jumbotron black darken-2 white-text row">
   <div class="col s12">
-    <h4 class="pink-text text-accent-3">Hybrid Retail Auction</h4>
+    <h4 class="pink-text text-accent-3">Hybrid Retail Auction System Beta</h4>
   </div>
 </div>
-
-
 
 <div class="row">
   <div class="col s3 m1 left">
@@ -53,54 +50,102 @@
 
 
 <div class="row">
-  <div class="col s2"></div>
-  <div class="col s8">
-    <ul class="bold grey-text text-accent-1">
-      <li>
-        Selected artists will have 10 original wall-mount paintings ready to ship.
-      </li>
-      <li>
-        Artist must be willing to sell each piece for up to $1000 dollars.
-      </li>
-      <li>
-        Artists who sell at least one piece in round 1 will be elible to move up to the $5000 tier.
-      </li>
-      <li>
-        Artists responsible for shipping and returns.
-      </li>
-      <li>
-        40% to curation (60/40 split)
-      </li>
-      <li>
-        Artist may accept or decline final offers.
-      </li>
-      <li>
-        1 cycle = 10 days; The exhibit is 10 cycles for a duration of 100 days. The closing exhibit will be held at the end of January 2019 in the San Francisco Bay Area.
-      </li>
-      <li>
-        For each cycle, artists with dissimilar styles will have their work added to the exhibit with a retail value of $1,000 or less.
-      </li>
-      <li>
-        Artists with sold work in their first cycle may re-apply at the $5000 tier.
-      </li>
-      <li>
-        Work is acquired through a proprietary hybrid retail-auction model.
-      </li>
-      <li>
-        All bidding is blind and are only revealed to artist and curator at end of the cycle.
-      </li>
-      <li>
-        The artist determines which final bid to accept.
-      </li>
-      <li>
-        Acquired works will be featured in private “Sold” area with relevant curated data.
-      </li>
-      <li>
-        Sold works will be displayed in a permanent digital gallery at bandstock.net
-      </li>
-    </ul>
+  <div class="col s2">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <i class="material-icons left red-text">star</i><br /><br />
+    <i class="material-icons left red-text">star_border</i><br /><br />
+    <i class="material-icons left red-text">star</i><br /><br />
+    <i class="material-icons left red-text">star_border</i><br /><br />
+    <i class="material-icons left red-text">star</i><br /><br />
+    <i class="material-icons left red-text">star_border</i><br /><br />
+    <i class="material-icons left red-text">star</i><br /><br />
+    <i class="material-icons left red-text">star_border</i><br /><br />
+    <i class="material-icons left red-text">star</i><br /><br />
+    <i class="material-icons left red-text">star_border</i><br /><br />
+    <i class="material-icons left red-text">star</i><br /><br />
+    <i class="material-icons left red-text">star_border</i><br /><br />
+    <i class="material-icons left red-text">star</i><br /><br />
+    <i class="material-icons left red-text">star_border</i><br /><br />
+    <i class="material-icons left red-text">star</i><br /><br />
+    <i class="material-icons left red-text">star_border</i><br /><br />
+    <i class="material-icons left red-text">star</i><br /><br />
+    <i class="material-icons left red-text">star_border</i><br /><br />
+    <i class="material-icons left red-text">star</i><br /><br />
   </div>
-  <div class="col s2"></div>
+  <div class="col s8">
+
+      <h3 class="blue-text text-accent-2">
+        Auction Parameters
+      </h3>
+      <h5 class="blue-text text-accent-4">
+        (Draft)
+      </h5>
+      <br />
+      <br />
+      <br />
+
+      <p class="flow-text yellow-text text-accent-1">
+        Selected artists will have 10 original wall-mount paintings ready to ship.<br /><br />
+
+        Artist must be willing to sell each piece for up to $1000 dollars.<br /><br />
+
+        Artists who sell at least one piece in round 1 will be elible to move up to the $5000 tier.<br /><br />
+
+        Artists responsible for shipping and returns.<br /><br />
+
+        40% to curation (60/40 split)<br /><br />
+
+        Artist may accept or decline final offers.<br /><br />
+
+        1 cycle = 10 days; The exhibit is 10 cycles for a duration of 100 days. The closing exhibit will be held at the end of January 2019 in the San Francisco Bay Area.<br /><br />
+
+        For each cycle, artists with dissimilar styles will have their work added to the exhibit with a retail value of $1,000 or less.<br /><br />
+
+        Artists with sold work in their first cycle may re-apply at the $5000 tier.<br /><br />
+
+        Work is acquired through a proprietary hybrid retail-auction model.<br /><br />
+
+        All bidding is blind and are only revealed to artist and curator at end of the cycle.<br /><br />
+
+        The artist determines which final bid to accept.<br /><br />
+
+        Acquired works will be featured in private “Sold” area with relevant curated data.<br /><br />
+
+        Sold works will be displayed in a permanent digital gallery at bandstock.net<br /><br />
+      </p>
+  </div>
+  <div class="col s2">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <i class="material-icons right red-text">star</i><br /><br />
+    <i class="material-icons right red-text">star_border</i><br /><br />
+    <i class="material-icons right red-text">star</i><br /><br />
+    <i class="material-icons right red-text">star_border</i><br /><br />
+    <i class="material-icons right red-text">star</i><br /><br />
+    <i class="material-icons right red-text">star_border</i><br /><br />
+    <i class="material-icons right red-text">star</i><br /><br />
+    <i class="material-icons right red-text">star_border</i><br /><br />
+    <i class="material-icons right red-text">star</i><br /><br />
+    <i class="material-icons right red-text">star_border</i><br /><br />
+    <i class="material-icons right red-text">star</i><br /><br />
+    <i class="material-icons right red-text">star_border</i><br /><br />
+    <i class="material-icons right red-text">star</i><br /><br />
+    <i class="material-icons right red-text">star_border</i><br /><br />
+    <i class="material-icons right red-text">star</i><br /><br />
+    <i class="material-icons right red-text">star_border</i><br /><br />
+    <i class="material-icons right red-text">star</i><br /><br />
+    <i class="material-icons right red-text">star_border</i><br /><br />
+    <i class="material-icons right red-text">star</i><br /><br />
+  </div>
 </div>
 
 
